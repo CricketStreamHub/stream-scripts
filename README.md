@@ -28,6 +28,7 @@
 | `dlhd.py` | DaddyLive | 24/7 TV channels | `httpx` + HTML parsing |
 | `ppv.py` | PPV (+ mirrors) | PPV events & substreams | `httpx` REST API w/ failover |
 | `streamed.py` | Streamed PK | Live & scheduled events | `httpx` JSON API |
+| `combined.py` | All | Live & scheduled events | `httpx`, Playwright w/ headless Chromium |
 
 ---
 
